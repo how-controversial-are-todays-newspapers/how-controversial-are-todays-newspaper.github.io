@@ -1,0 +1,14 @@
+<header class="side">
+
+<div class="row gx-0 justify-content-center">
+    <div class="col-lg-6"><iframe src="{{include.text}}" width="{{include.width}}" height = "{{include.height}}" scrolling = no></iframe></div>
+    <div class="col-lg-6 order-lg-first">
+        <div class="h-100 project">
+            <div class="project-text w-100 my-auto text-left text-lg-right">
+                <p> {% capture p %}{{ include.content }}{% endcapture %}{{ p | markdownify }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</header>

@@ -1,0 +1,36 @@
+/* Taken from https://github.com/cpsievert/LDAvis */
+/* Copyright 2013, AT&T Intellectual Property */
+/* MIT Licence */
+
+path {
+  fill: #F5F5F5;
+  stroke: #F5F5F5;
+  background:#F5F5F5;
+}
+
+.xaxis .tick.major {
+    fill: #F5F5F5;
+    stroke: #F5F5F5;
+    stroke-width: 0.1;
+    opacity: 0.7;
+}
+
+
+.slideraxis {
+    fill: black;
+    stroke: black;
+    stroke-width: 0.4;
+    opacity: 0.5;
+}
+
+text {
+    font-family:"Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 10px;
+    letter-spacing: 0.15rem;
+}
+
+/* IPython Notebook CSS to allow visualization to fit */
+/* I'm open to a better way of accomplishing this goal... */
+.container { width:1350px !important; height: 800px !important;}
+/* This is for nbviewer's benefit since the above wasn't enough... */
+.output_area { width:1350px !important; height: 800px !important;}
